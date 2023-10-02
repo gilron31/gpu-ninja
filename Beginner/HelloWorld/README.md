@@ -85,3 +85,4 @@ My gpu is a GeForce MX130. We can look it up online (or use `nvidia-smi -q`) and
 - [ ] A word about asynchronisity.
 - [ ] Defining the `CUDA_CHECK_ERR` macro.
 - [ ] An example of a compilation that succeeds and a run that fails.
+- [ ] explain this https://stackoverflow.com/questions/6302695/difference-between-cuda-h-cuda-runtime-h-cuda-runtime-api-h and create a demo for a case that needs to include them in a .cc file. 

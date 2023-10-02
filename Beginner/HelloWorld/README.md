@@ -86,3 +86,13 @@ My gpu is a GeForce MX130. We can look it up online (or use `nvidia-smi -q`) and
 - [ ] Defining the `CUDA_CHECK_ERR` macro.
 - [ ] An example of a compilation that succeeds and a run that fails.
 - [ ] explain this https://stackoverflow.com/questions/6302695/difference-between-cuda-h-cuda-runtime-h-cuda-runtime-api-h and create a demo for a case that needs to include them in a .cc file. such as ptr.h
+
+
+# Task
+1. Read through the section and follow instructions.
+2. Make sure you compile and run the code sample and recieve the following output:
+    ```
+    Hello World from CPU
+    Hello World from GPU
+    ```
+

@@ -1,8 +1,22 @@
 # Hello World
-And what your computer needs to compile and run CUDA code.
+And what your computer needs to compile and run CUDA code. This is basically the first programmer writes in any programming langauge. CUDA is no exception. We will cover the basics of environment setup and explain what is going on behind the scenes when we see "Hello World from GPU".
+
+## Learning Outcomes
+1. Learn how to download and install the CUDA toolkit.
+2. Understand the inner working of a "Hello World" program in CUDA.
 
 
-Based on https://developer.download.nvidia.com/compute/cuda/5_5/rel/docs/CUDA_Getting_Started_Linux.pdf
+# DoD
+1. Download and install the CUDA toolkit
+2. Compile and run the `hello_world.cu` code successfully and recieve the following output:
+    ```
+    Hello World from CPU
+    Hello World from GPU
+    ```
+
+
+# Material & Setup
+
 ## Installation
 In order to develop for Nvidia GPUs you need the following things:
 - A CUDA capable device, a GPU. 
@@ -52,10 +66,8 @@ Mon Oct  2 13:30:03 2023
 |    0   N/A  N/A      2583      G   /usr/lib/xorg/Xorg                            2MiB |
 +---------------------------------------------------------------------------------------+
 ```
-
 ### `nvcc --version`
 
-# Hello world program
 
 ## The code
 ```cpp
@@ -88,11 +100,7 @@ My gpu is a GeForce MX130. We can look it up online (or use `nvidia-smi -q`) and
 - [ ] explain this https://stackoverflow.com/questions/6302695/difference-between-cuda-h-cuda-runtime-h-cuda-runtime-api-h and create a demo for a case that needs to include them in a .cc file. such as ptr.h
 
 
-# Task
-1. Read through the section and follow instructions.
-2. Make sure you compile and run the code sample and recieve the following output:
-    ```
-    Hello World from CPU
-    Hello World from GPU
-    ```
+## Related Reading Material
+- Based on https://developer.download.nvidia.com/compute/cuda/5_5/rel/docs/CUDA_Getting_Started_Linux.pdf
+
 

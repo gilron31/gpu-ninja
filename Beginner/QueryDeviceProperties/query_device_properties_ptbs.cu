@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+void using_runtime_api() {
   int device;
   cudaGetDevice(&device);
   std::cout << "device: " << device << std::endl;
@@ -17,4 +17,19 @@ int main() {
   std::cout << "regsPerMultiprocessor: " << prop.regsPerMultiprocessor
             << std::endl;
   std::cout << "multiProcessorCount: " << prop.multiProcessorCount << std::endl;
+}
+
+void using_driver_api() {
+  int device_count;
+  cuDeviceGetCount(&device_count);
+  std::cout << "Device count: " << device_count << std::endl;
+  // TODO(gil): complete
+}
+
+int main() {
+  std::cout << "Using CUDA runtime API" << std::endl;
+  using_runtime_api();
+
+  std::cout << "Using CUDA driver API: " << std::endl;
+  using_driver_api();
 }

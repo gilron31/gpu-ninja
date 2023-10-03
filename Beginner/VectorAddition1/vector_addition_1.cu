@@ -6,7 +6,7 @@ template <class T>
 __global__ void vector_addition_kernel(const T *a, const T *b, size_t size,
                                        T *c) {
   /**
-   * Your code Here!
+   * Your Code Here!
    *
    * 1. Use all threads in the grid.
    * 2. Make this kernel as simple as possible (optimizations will come later).
@@ -17,7 +17,7 @@ template <class T>
 void vector_addition_impl(const std::vector<T> &a, const std::vector<T> &b,
                           std::vector<T> &c) {
   /**
-   * Your code Here!
+   * Your Code Here!
    *
    * 1. Don't forget input validation.
    * 2. Don't forget to free the allocated device memory.

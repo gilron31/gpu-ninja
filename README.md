@@ -1,4 +1,8 @@
+# This repo is discontinued...
+Couldn't get to it myself but https://leetgpu.com/  is a brilliant realization of my vision.
+
 # gpu-ninja
+
 A set of exercises designed to teach Graphical Processing Unit (GPU) working and architecture and demonstrate best practices from a performance critical point of view. 
 
 # Repo Structure
